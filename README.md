@@ -10,4 +10,5 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 
 建立 Line Bot
 ==
+1. 在電腦上登入 Line，可以用帳號密碼或是用 QRCode 登入。
 [![登入 Line](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Line_login.png)](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Line_login.png)
