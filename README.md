@@ -82,8 +82,11 @@ GAE
 	準備好 app.py, app.yaml, Procfile 及 requirements.txt 放到任意資料夾(如 C:\Line-Bot )  
 	![APP-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/app-1.png)  
 	之後再執行 ```gcloud app deploy```  
-	![APP-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/deploy.png)  
+	![deploy](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/deploy.png)  
+
+6. 最後再到 https://developers.line.biz/console/ 在左手邊選擇 Provider，選擇 Line Bot 所屬的 Channel，在 Messaging API 裡面 Verify Webhook 可以正確使用。  
+	![Webhook](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Webhook_Setting.png)
 
 執行
 ==
-將 ```send_to_bot.py``` 傳到 Linux 上。
+將 ```send_to_bot.py``` 傳到 Linux 上。可以用 ```/path/to/your/script.sh | python3 /path/to/your/send_to_bot.py```
