@@ -83,4 +83,7 @@ GAE
 	![APP-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/app-1.png)  
 	之後再執行 ```gcloud app deploy```  
 	![APP-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/deploy.png)  
-	
+
+執行
+==
+將 ```send_to_bot.py``` 傳到 Linux 上。
