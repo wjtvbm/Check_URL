@@ -16,9 +16,9 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 2. 建立 Provider
 ![建立 Provider](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Provider.png)
 
-Provider 會顯示在 Lint bot 下方
+	Provider 會顯示在 Lint bot 下方
 
-![Provider 顯示](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Provider_show.png)
+	![Provider 顯示](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Provider_show.png)
 
 3. 建立 Channel，optional 的都可以不用填。
 ![建立 Channel](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel.png)
