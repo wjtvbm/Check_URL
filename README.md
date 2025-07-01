@@ -34,4 +34,16 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 	
 	Official Account 完成後你會看到像這樣的畫面 @XXXXXXXX 是 Line ID，也可以繳保護費取得易記的名字。  
 	![建立 Official Account 完成](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel_official_account-done.png)
-4. 
+
+4. 設定 Messaging API
+	進入 https://manager.line.biz/account/@XXXXXXXX/setting/messaging-api (請將 XXXXXXXX 換成你的 ID)，或是直接進入 https://manager.line.biz/ 找到剛剛建立的 Official Account 並在右邊點選設定。  
+	![Official Account 設定](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-1.png)
+	
+	選擇啟用 API，選擇要跟哪一個 Provide 連結。(這邊我們選剛剛在第二步建立的 Provider，注意：選定之後不能更改)  
+	![Select Provider](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-2.png)
+	
+	輸入你 bot 的隱私及使用條款。可以直接略過。  
+	![隱私及使用條款](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-3.png)
+	
+	最後的確認。
+	![最後確認](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-4.png)
