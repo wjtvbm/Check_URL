@@ -50,3 +50,19 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 	
 	取得 Channel ID、Channel Secret  
 	![Channel_info](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-5.png)
+
+	Webhook 等 GAE 設定好再放。
+
+GAE
+==
+
+開啟專案
+===
+確保你已登入並有可用的 Google Cloud 帳戶。
+
+1. 建立新的 Project  
+	新增 Project，Project Name 是給人看的，Project ID 最後會變成 Webhook 的網址。
+
+設定 GAE Secret Manager
+===
+開啟 https://console.cloud.google.com/security/secret-manager
