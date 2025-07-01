@@ -48,11 +48,13 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 	最後的確認。  
 	![最後確認](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-4.png)
 	
-	取得 Channel ID、Channel Secret  
+	取得 Channel ID、Channel Secret，Webhook 等 GAE 設定好再放。  
 	![Channel_info](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-5.png)
 
-	Webhook 等 GAE 設定好再放。
-
+	取得 Your user ID  
+	到 https://developers.line.biz/console/ ，在左手邊選擇 Provider，選擇 Line Bot 所屬的 Channel，在 Basic settings 頁面裡面找到 Your user ID (其實 Channel ID、Channel Secret 在這邊也可以找到)  
+	![User ID](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Your_User_ID.png)
+	
 GAE
 ==
 
@@ -64,7 +66,11 @@ GAE
 
 2. 設定 GAE Secret Manager  
 	啟用 Secret Manager API，建立完 Project 後會問你要不要啟用，如果沒有問的話就自己去旁邊按  
-	![Enable_Secret_Manager_API-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Enable_Secret_Manager_API.png)
-	![Enable_Secret_Manager_API-2](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Enable_Secret_Manager_API-2.png)
-===
+	![Enable_Secret_Manager_API-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Enable_Secret_Manager_API.png)  
+	![Enable_Secret_Manager_API-2](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Enable_Secret_Manager_API-2.png)  
+	
+3. 建立 Secret  
+	新增 Channel ID、Channel Secret 及 YOUR_LINE_USER_ID 
+
+
 開啟 https://console.cloud.google.com/security/secret-manager
