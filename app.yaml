@@ -1,0 +1,19 @@
+runtime: python311 # 強迫用 Python 3.11 這是相對穩定的版本
+
+# 啟動命令， app:app 表示在 app.py 檔案中找到名為 app 的 Flask application
+entrypoint: gunicorn -b :$PORT app:app
+
+# auto scaling
+automatic_scaling:
+  min_instances: 0 # 閒置時可以降到 0 
+  max_instances: 1 # 最大開到 1
+  target_cpu_utilization: 0.65 # CPU 使用率達到時會在開 instances
+  target_throughput_utilization: 0.65 # 流量使用率
+
+# 環境變數
+env_variables:
+  # key 都移到 Secret Manager
+  MY_APP_DEBUG: 'false'
+  #LINE_CHANNEL_ACCESS_TOKEN: 
+  #LINE_CHANNEL_SECRET: 
+  #YOUR_LINE_USER_ID: 
