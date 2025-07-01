@@ -91,4 +91,4 @@ GAE
 ==
 將 ```send_to_bot.py``` 傳到 Linux 上。可以用 ```/path/to/your/script.sh | python3 /path/to/your/send_to_bot.py``` 來測試。  
 	![TEST](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/test-1.png)  
-	![TEST](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/test-2.png)  
+	![TEST](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/test-2.jpg)  
