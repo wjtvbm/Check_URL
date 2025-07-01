@@ -73,12 +73,14 @@ GAE
 	新增 Channel ID、Channel Secret 及 YOUR_LINE_USER_ID  
 	![Secret_Manager-2](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Secret_Manager-2.png)
 
-4. 設定 Secret Manager 及 Cloud Storage Buckets 權限給 Project
+4. 設定 Secret Manager 權限給 Project  
+	把每一個 Key 都點進去後選 GRANT ACCESS，rule 選 Secret Manager Secret Accessor，帳號則是 <Project ID>@appspot.gserviceaccount.com 在這邊的例子是 for-line-bot-464605@appspot.gserviceaccount.com  
 
 5. 部屬到 GAE  
 	安裝 [Google Cloud CLI](https://cloud.google.com/sdk/docs/downloads-interactive)  
-	安裝完後後執行 ```gcloud init ``` 初始化   
+	安裝完後後執行 ```gcloud init``` 初始化   
 	準備好 app.py, app.yaml, Procfile 及 requirements.txt 放到任意資料夾(如 C:\Line-Bot )  
 	![APP-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/app-1.png)  
-	
+	之後再執行 ```gcloud app deploy```  
+	![APP-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/deploy.png)  
 	
