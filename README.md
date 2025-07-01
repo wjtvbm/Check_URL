@@ -45,5 +45,8 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 	輸入你 bot 的隱私及使用條款。可以直接略過。  
 	![隱私及使用條款](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-3.png)
 	
-	最後的確認。
+	最後的確認。  
 	![最後確認](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-4.png)
+	
+	取得 Channel ID、Channel Secret  
+	![Channel_info](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Enable_Message_API-5.png)
