@@ -70,7 +70,7 @@ GAE
 	![Enable_Secret_Manager_API-2](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Enable_Secret_Manager_API-2.png)  
 	
 3. 建立 Secret  
-	新增 Channel ID、Channel Secret 及 YOUR_LINE_USER_ID 
+	新增 Channel ID、Channel Secret 及 YOUR_LINE_USER_ID  
 	![Secret_Manager-3](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Secret_Manager-2.png)
 
 開啟 https://console.cloud.google.com/security/secret-manager
