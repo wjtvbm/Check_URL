@@ -73,7 +73,9 @@ GAE
 	新增 Channel ID、Channel Secret 及 YOUR_LINE_USER_ID  
 	![Secret_Manager-2](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Secret_Manager-2.png)
 
-4. 部屬到 GAE  
+4. 設定 Secret Manager 及 Cloud Storage Buckets 權限給 Project
+
+5. 部屬到 GAE  
 	安裝 [Google Cloud CLI](https://cloud.google.com/sdk/docs/downloads-interactive)  
 	準備好 app.py, app.yaml, Procfile 及 requirements.txt 放到任意資料夾(如 C:\Line-Bot )  
 	![APP-1](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/app-1.png)  
