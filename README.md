@@ -20,7 +20,12 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 
 	![Provider 顯示](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Provider_show.png)
 
-3. 建立 Messaging API Channel，optional 的都可以不用填。
-![建立 Channel](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel.png)
-
+3. 建立 Messaging API Channel。
+![建立 Messaging API Channel](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel.png)
+	建立 Messaging API Channel 前需要建立 Official Account，系統會幫你導向 Official Account 建立頁面。
+	
+	![Provider 顯示](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel_official_account-1.png)
+	
+	填入必要的資訊以建立 Official Account。
+	![Provider 顯示](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel_official_account-2.png)
 4. 
