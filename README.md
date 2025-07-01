@@ -18,13 +18,12 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 	![建立 Provider](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Provider.png)
 
 	Provider 會顯示在 Lint bot 下方  
-
 	![Provider 顯示](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Provider_show.png)
 
 3. 建立 Messaging API Channel。  
-![建立 Messaging API Channel](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel.png)
-	建立 Messaging API Channel 前需要建立 Official Account，系統會幫你導向 Official Account 建立頁面。  
+	![建立 Messaging API Channel](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel.png)
 	
+	建立 Messaging API Channel 前需要建立 Official Account，系統會幫你導向 Official Account 建立頁面。  
 	![建立 Official Account](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel_official_account-1.png)
 	
 	填入必要的資訊以建立 Official Account。  
@@ -32,4 +31,7 @@ Line bot 練習，檢查透過 curl 檢查特定網站並傳 Line 至使用者
 	
 	你必須同意使用條款  
 	![建立 Official Account 條款](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel_official_account-terms.png)
+	
+	Official Account 完成後你會看到像這樣的畫面 @XXXXXXXX 是 Line ID，也可以繳保護費取得易記的名字。  
+	![建立 Official Account 完成](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Line_bot_Channel_official_account-done.png)
 4. 
