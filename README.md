@@ -73,4 +73,6 @@ GAE
 	新增 Channel ID、Channel Secret 及 YOUR_LINE_USER_ID  
 	![Secret_Manager-3](https://github.com/wjtvbm/Check_URL/blob/main/Pictures/Secret_Manager-2.png)
 
-開啟 https://console.cloud.google.com/security/secret-manager
+4. 部屬到 GAE  
+	安裝 [Google Cloud CLI](https://cloud.google.com/sdk/docs/downloads-interactive)  
+	
