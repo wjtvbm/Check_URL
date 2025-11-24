@@ -92,8 +92,9 @@ def main():
     elif not is_connected and last_status == "DOWN":
         # 異常超過一小時 (REMINDER_INTERVAL)
         if (current_time - last_reminder_time) >= REMINDER_INTERVAL:
-            total_duration_hours = round((current_time - first_down_time) / 3600, 1)
-            msg = f"[{time_str}]\n [嚴重] {TARGET_HOST}:{TARGET_PORT} 仍無法連線！\n已持續中斷  {duration} 分鐘。"
+#            total_duration_hours = round((current_time - first_down_time) / 3600, 1)
+            duration = int((current_time - first_down_time) / 60)
+            msg = f"[{time_str}]\n [嚴重] {TARGET_HOST}:{TARGET_PORT} 仍無法連線！\n已持續中斷 {duration} 分鐘。"
             print(msg)
             send_line_multicast(msg)
             # 只更新上次通知時間，起始時間不變
